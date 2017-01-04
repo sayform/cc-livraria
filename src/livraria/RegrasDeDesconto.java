@@ -24,7 +24,7 @@ public class RegrasDeDesconto {
 		if (!ebook.aplicarDesconto(0.15)) {
 			System.out.println("Desconto máximo de 15%");
 		} else {
-			System.out.println("valor do Ebook com desconto" + ebook.getValor());
+			System.out.println("valor do Ebook com desconto " + ebook.getValor());
 		}
 		
 	}
