@@ -1,6 +1,6 @@
 package livraria;
 
-public class Livro {
+public abstract class Livro {
 	private String titulo;
 	private String descricao;
 	private double valor;
@@ -51,14 +51,7 @@ public class Livro {
 		this.autor = autor;
 	}
 	
-	public boolean aplicarDesconto(double porcentagem) {
-		if(porcentagem > 0.3) {
-			return false;
-		} else {
-			this.valor -= this.valor * porcentagem;
-			return true;
-			}
-	}
+	public abstract boolean aplicarDesconto(double porcentagem);
 	
 	boolean temAutor() {
 		return this.autor != null;
