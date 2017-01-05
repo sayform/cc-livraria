@@ -1,6 +1,6 @@
-package livraria;
 
-public abstract class Livro {
+
+public abstract class Livro implements Produto {
 	private String titulo;
 	private String descricao;
 	private double valor;

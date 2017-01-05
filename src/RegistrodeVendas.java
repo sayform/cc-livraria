@@ -1,4 +1,4 @@
-package livraria;
+
 
 public class RegistrodeVendas {
 	public static void main(String[] args) {
