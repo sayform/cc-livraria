@@ -1,8 +1,8 @@
+package br.com.casadocodigo.livraria.teste;
 
 
 public class CalculadoreDeEstoque {
 	public static void main(String[] args) {
-		double livroJava8 = 59.90;
 		double livroTDD = 59.90;
 		
 		double soma = livroTDD + livroTDD;

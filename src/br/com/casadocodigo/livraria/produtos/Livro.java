@@ -1,4 +1,6 @@
+package br.com.casadocodigo.livraria.produtos;
 
+import br.com.casadocodigo.livraria.Autor;
 
 public abstract class Livro implements Produto {
 	private String titulo;
@@ -64,6 +66,7 @@ public abstract class Livro implements Produto {
 		
 		// mostra os detahes do autor apenas se ele exitir. 
 		// A condiçõo vem do método temAutor(); que possui um boleno de retorno.
+		// Se o retorno for null, não será mostrado; se for diferente de null ele mostra
 		if (this.temAutor()) {
 			autor.imprimir();
 			}
