@@ -1,5 +1,3 @@
-
-
 public class CadastroDeLivros {
 
 	public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class CadastroDeLivros {
 		autor.setEmail("rodrigo.turini@caelum.com.br");
 		autor.setCpf("123.456.789-10");
 		
-		Livro livro = new LivroFisico(autor);
+		LivroFisico livro = new LivroFisico(autor);
 		livro.setTitulo("Java 8 Prático");
 		livro.setDescricao("Novos recursos da linguagem");
 		livro.setValor(59.90);

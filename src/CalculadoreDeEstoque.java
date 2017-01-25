@@ -2,7 +2,7 @@
 
 public class CalculadoreDeEstoque {
 	public static void main(String[] args) {
-		double livroJAva8 = 59.90;
+		double livroJava8 = 59.90;
 		double livroTDD = 59.90;
 		
 		double soma = livroTDD + livroTDD;

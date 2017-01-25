@@ -1,5 +1,5 @@
 
-public class Revista implements Produto {
+public class Revista implements Produto, Promocional {
 
 	private String nome;
 	private String descricao;
@@ -29,6 +29,11 @@ public class Revista implements Produto {
 	}
 	public void setEditora(Editora editora) {
 		this.editora = editora;
+	}
+	@Override
+	public boolean aplicarDesconto(double porcentagem) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 	
